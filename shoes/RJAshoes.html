@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Shoes Shop</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #666;
+            margin: 10px;
+        }
+
+        .product .price {
+            font-size: 16px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+
+            .products {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+        }
+		h2
+		{
+			bckground-color:maroon;
+		}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RJA Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nike</h2>
+		<hr>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="nike1.jpg" alt="Nike Air Force 1">
+                <h2>Nike Air Force 1</h2>
+                <p>A classic sneaker with a comfortable fit and timeless design.</p>
+                <p class="price">$2000</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="nike2.jpg" alt="Adidas Ultraboost">
+                <h2>Nike Air 2</h2>
+                <p>High-performance running shoes with responsive cushioning.</p>
+                <p class="price">$1500</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="nike3.jpg" alt="Puma Suede">
+                <h2>running nike</h2>
+                <p>Stylish casual shoes perfect for everyday wear.</p>
+                <p class="price">$1800</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="nike4.jpg" alt="New Balance 574">
+                <h2>Nike 574</h2>
+                <p>Comfortable and versatile sneakers for all-day use.</p>
+                <p class="price">$2300</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+        </div>
+    </main>
+	
+	 <main>
+        <h2>Campus</h2>
+		<hr>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="ca1.jpg" alt="Nike Air Force 1">
+                <h2>campus 2323</h2>
+                <p>A classic sneaker with a comfortable fit and timeless design.</p>
+                <p class="price">$1000</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="ca2.jpg" alt="Adidas Ultraboost">
+                <h2>Cam cft 34</h2>
+                <p>High-performance running shoes with responsive cushioning.</p>
+                <p class="price">$2500</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="ca3.jpg" alt="Puma Suede">
+                <h2>campul 445</h2>
+                <p>Stylish casual shoes perfect for everyday wear.</p>
+                <p class="price">$2380</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="ca4.jpg" alt="New Balance 574">
+               <h2>campul 445 2nd</h2>
+                <p>Comfortable and versatile sneakers for all-day use.</p>
+                <p class="price">$2220</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+        </div>
+    </main>
+	
+	 <main>
+        <h2>Addidas</h2>
+		<hr>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="ad1.jpg" alt="Nike Air Force 1">
+                <h2>AD 3</h2>
+                <p>A classic sneaker with a comfortable fit and timeless design.</p>
+                <p class="price">$100</p>
+				<button><a href="thya.html">BUY</a></button>
+				
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="ad2.jpg" alt="Adidas Ultraboost">
+                <h2>Adidas Ultraboost</h2>
+                <p>High-performance running shoes with responsive cushioning.</p>
+                <p class="price">$150</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="ad3.jpg" alt="Puma Suede">
+                <h2>Adidas Suede</h2>
+                <p>Stylish casual shoes perfect for everyday wear.</p>
+                <p class="price">$80</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="ad4.jpg" alt="New Balance 574">
+                <h2>AD AD</h2>
+                <p>Comfortable and versatile sneakers for all-day use.</p>
+                <p class="price">$120</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+        </div>
+    </main>
+	
+	 <main>
+        <h2>Puma</h2>
+		<hr>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="pa1.jpg" alt="Nike Air Force 1">
+                <h2>Puma 12 gen</h2>
+                <p>A classic sneaker with a comfortable fit and timeless design.</p>
+                <p class="price">$100</p>
+				<button><a href="thya.html">BUY</a></button>
+				
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="pa2.jpg" alt="Adidas Ultraboost">
+                <h2>pum 2233</h2>
+                <p>High-performance running shoes with responsive cushioning.</p>
+                <p class="price">$150</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="pa3.jpg" alt="Puma Suede">
+                <h2>Puma Suede</h2>
+                <p>Stylish casual shoes perfect for everyday wear.</p>
+                <p class="price">$80</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="pa4.jpg" alt="New Balance 574">
+                <h2>puma 665</h2>
+                <p>Comfortable and versatile sneakers for all-day use.</p>
+                <p class="price">$120</p>
+				<button><a href="thya.html">BUY</a></button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; since 2018 RJA fashion</p>
+		<p>CEo jayraj</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+<html>
+<head>
+<title> RJA . WEB</title>
+
+<style>
+		body
+		{
+			background-image:url("computer.jfif");
+			background-size:cover;
+				
+		}
+		form
+		{
+			margin-top:150px;
+			background-color:blueviolet;
+			margin-left:550px;
+			margin-right:550px;
+			border-redius:10px;
+			
+			
+		}
+		h1
+		{
+			color:white;
+			text-align:left;
+		}
+		#l1
+		{
+			background-color:green;
+			color:white;
+		}
+</style>
+</head>		
+</style>
+<center>
+<body>
+			<h1>IBM</h1>	
+		
+			<form  action="n.html" method="post">
+				<h1></h1>
+			
+			<a href="Z:\sem-1\wdt-1\start.html" target="blank">set image</a><br><br>
+			<label for="fname"> </label>
+			<input type="text" id="fname" name="fname" placeholder="Name"><br><br>
+			<label for="email"></label>
+			<input type="email" id="email" name="email" placeholder="E-mail"><br><br>
+			<label></label>
+			<input type="number" placeholder="MO.NO"><br><br>
+			<label>  </label>
+			<hr></hr>
+		
+
+			<label>DOB</label>
+			<input type="date"><br><br>
+			
+		
+					<button><a href="Z:\sem-1\WDT-CSS\IBM\newsaqshi.html">Login</a><br><br></button>
+					
+		
+		
+			
+		 
+</center>
+			<footer> Make by Jayraj</footer>		 
+</body>
+</html
